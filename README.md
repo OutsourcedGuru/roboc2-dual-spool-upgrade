@@ -30,13 +30,10 @@ I've included pictures below to make this easier.
 	* 7/8" x 36", around $3.59 each at arts & crafts stores, for [example](https://www.whiteheadindustrial.com/p-20143-78-x-36-hardwood-dowel-rod-code-brown-no-301621.aspx?gclid=EAIaIQobChMI3OTK_Mbf1gIVg2x-Ch3YIQa1EAYYASABEgJSA_D_BwE)
 	* 3/16" x 36", around $0.79 each at arts & crafts stores, for [example](https://www.c2f.com/html/productdetail.asp?p=MID-7905)
 * Several types of #6-32 shouldered aluminum bolts, around $1.69 for quantity 25 each for [example](https://www.servocity.com/6-32-zinc-plated-socket-head-machine-screws), or something like [this](https://www.servocity.com/actobotics-hardware-pack-a) would be a better idea
-	* 7/16" (11.11mm) @ four each
+	* 7/16" (11.11mm) @ eight each
 	* 1/2" (12.72mm) @ four each
 	* 1/4" (6.35) @ two each
 * Four or eight soft furniture stick-ons for the bottom
-* Superglue to connect the two bottom brackets together
-* Clamps (two) of some kind
-* A strong rubberband to hold things while they're being glued
 * A 7/64ths hex wrench for tightening all the bolts
 * A hammer
 * A pocketknife or similar
@@ -50,12 +47,23 @@ I've included pictures below to make this easier.
 
 ![bolt-6-32_7-16ths](https://user-images.githubusercontent.com/15971213/31312413-5cf2db64-ab77-11e7-942b-7443bf34e120.png)
 
-![clamp](https://user-images.githubusercontent.com/15971213/31312409-3bb63b08-ab77-11e7-9c00-60d47c6c52df.jpg)
-
 ![hexkey-7-64ths](https://user-images.githubusercontent.com/15971213/31312430-b41754d8-ab77-11e7-8bd8-0a58fb8784d0.jpg)
 
 ### Parts to print
 Here's the part list, all in PLA. I used the standard [Robo 3D Jet Black](http://robo.fyi/consumables/filament-by-type-by-vendor) for all the parts.
+
+#### Dual KG version:
+
+1. **RC_DualSpool-1of4(PrintTwice).gcode** x 2 => two **Center Axis Brackets**, two **Center Axis Covers** and four **End Caps**
+2. **RC_DualSpool-2of4(PrintOnceKG).gcode** x 1 => two **Assembly** parts and four **Sleeves**
+3. **RC_DualSpool-3of4(PrintTwiceKG).gcode** x 2 => two halves of the **Under-brackets** and two **Mid-shims**
+4. **RC_DualSpool-4of4(PrintTwiceKG).gcode** x 2 => two halves of the remaining **Under-brackets**
+
+#### Dual Half-KG version:
+
+1. **RC_DualSpool-1of4(PrintTwice).gcode** x 2 => two **Center Axis Brackets**, two **Center Axis Covers** and four **End Caps**
+2. **RC_DualSpool-2of4(PrintOnceHalfKG).gcode** x 1 => two **Assembly** parts and four **Sleeves**
+3. **RC_DualSpool-3of4(PrintTwiceHalfKG).gcode** x 2 => two halves of the **Under-brackets** and two **Mid-shims**
 
 #### Note
 Given that the Robo C2 has a fair degree of inaccuracy when printing Z-oriented holes, it's important for you to print these parts using the GCODE I've provided; otherwise, your bolts won't fit. (I've already factored in the hole-shrinkage in this dimension.)
@@ -66,7 +74,7 @@ Given that the Robo C2 has a fair degree of inaccuracy when printing Z-oriented 
 * Sleeve x 4 *{Note that there is a shorter pair for the half-KG version of this project so choose appropriately}*
 * Center Axis Bracket x 2
 * Center Axis Cover x 2
-* Under-bracket (both halves) x 2 *{Note that there is a shorter pair for the half-KG version of this project so choose appropriately}*
+* Under-bracket (both halves, needs raft & support) x 2 *{Note that there is a shorter pair for the half-KG version of this project so choose appropriately}*
 
 ## Installation
 After printing all the parts, here are the assembly instructions.
@@ -80,23 +88,18 @@ After printing all the parts, here are the assembly instructions.
 7. Pushing everything together, mark the point where the dowel clears the last part and cut the dowel
 8. Repeat for the other ball bearing
 9. Sandwich everything together with another **Assembly** part on the opposite side
-10. Flip everything upside-down and begin attaching the **Under-bracket** halves using the four 1/2" bolts... carefully use the hammer to set the **Assembly** parts evenly into the rectangular groove in the **Under-bracket** parts, tighten each bolt firmly
-11. Add the strong rubber band to hold together both **Assembly** parts and everything in between
+10. Match up the correct pairs of **Under-brackets**, aligning the holes on the bottom, use two 7/16" bolts to attach them together
+11. Flip everything upside-down and begin attaching the combined **Under-brackets** using the four 1/2" bolts... if necessary, carefully use the hammer to set the **Assembly** parts evenly into the rectangular grooves in the **Under-bracket** parts, tighten each bolt firmly
 12. Verify that all four sleeves spin freely
-13. Use the two clamps to hold the **Under-bracket** halves in place
-14. Apply the glue carefully, making sure that there's something under your project to catch any drips (it's probably best to let it sit overnight)
-15. Remove the clamps and rubberband
-16. Add four cushioned furniture bumpers/feet to the bottom to protect your table top
-17. Use the 1/4" bolts to attach one each **Center Axis Cover** to the **Center Axis Brackets** (don't over-tighten)
-18. Use two each 7/16" bolts to attach both **Center Axis Brackets** to their respective Assembly part, tightening them firmly
-19. Close one **Center Axis Cover**, insert the 7/16" dowel through everything and mark a line 2mm inside (the depth of the other **Center Axis Cover**), saw through the dowel
-20. Orient the dual-spool holder behind the printer and add two filament spools so that the filament spools clockwise as seen from the right side of the printer, slide the dowel through the middle and close both covers, slightly tightening their bolts by hand
+13. Add four cushioned furniture bumpers/feet to the bottom to protect your table top
+14. Use the 1/4" bolts to attach one each **Center Axis Cover** to the **Center Axis Brackets** (don't over-tighten)
+15. Use two each 7/16" bolts to attach both **Center Axis Brackets** to their respective Assembly part, tightening them firmly
+16. Close one **Center Axis Cover**, insert the 7/16" dowel through everything and mark a line 2mm inside (the depth of the other **Center Axis Cover**), saw through the dowel
+17. Orient the dual-spool holder behind the printer and add two filament spools so that the filament spools clockwise as seen from the right side of the printer, slide the dowel through the middle and close both covers, slightly tightening their bolts by hand
 
 ![testfit](https://user-images.githubusercontent.com/15971213/31319791-186148a8-ac1e-11e7-8fac-703bc07e2deb.jpg)
 
 ![bottomaxles](https://user-images.githubusercontent.com/15971213/31319765-bff173c8-ac1d-11e7-8bd5-8b0531d0e797.jpg)
-
-![dsc_0065](https://user-images.githubusercontent.com/15971213/31312792-5ab462e0-ab82-11e7-8a47-0ffae162bfc6.png)
 
 ![dsc_0064](https://user-images.githubusercontent.com/15971213/31312804-b3b9a634-ab82-11e7-95fc-6ed904aea4f6.png)
 
