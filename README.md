@@ -106,3 +106,5 @@ After printing all the parts, here are the assembly instructions.
 ![dsc_0063](https://user-images.githubusercontent.com/15971213/31312773-912cab62-ab81-11e7-865d-13fbc289d1a5.png)
 
 ![sideview-c2andholder](https://user-images.githubusercontent.com/15971213/31319572-b697381a-ac1a-11e7-9f3c-816dddbba648.png)
+
+![dsc_0092](https://user-images.githubusercontent.com/15971213/31450634-c64eb4ea-ae5e-11e7-9610-a773379f50e6.JPG)
