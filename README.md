@@ -108,3 +108,8 @@ After printing all the parts, here are the assembly instructions.
 ![sideview-c2andholder](https://user-images.githubusercontent.com/15971213/31319572-b697381a-ac1a-11e7-9f3c-816dddbba648.png)
 
 ![dsc_0092](https://user-images.githubusercontent.com/15971213/31450634-c64eb4ea-ae5e-11e7-9610-a773379f50e6.JPG)
+
+|Donate||Cryptocurrency|
+|:-----:|---|:--------:|
+| ![eth-receive](https://user-images.githubusercontent.com/15971213/40564950-932d4d10-601f-11e8-90f0-459f8b32f01c.png) || ![btc-receive](https://user-images.githubusercontent.com/15971213/40564971-a2826002-601f-11e8-8d5e-eeb35ab53300.png) |
+|Ethereum||Bitcoin|
